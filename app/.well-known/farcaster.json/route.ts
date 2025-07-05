@@ -9,18 +9,18 @@ export async function GET() {
   },
      "frame": {
     "name": "The Clanker App",
-    "version": "1",
-    "iconUrl": "https://clanker-dep.vercel.app/icon.avif",
-    "homeUrl": "https://clanker-dep.vercel.app",
-    "imageUrl": "https://clanker-dep.vercel.app/hero.jpeg",
-    "splashImageUrl": "https://clanker-dep.vercel.app/plash.gif",
-    "splashBackgroundColor": "#000000",
-    "webhookUrl": "https://clanker-dep.vercel.app/api/webhook",
+    "version": "next",
+    "iconUrl": "https://theclankerapp.vercel.app/icon.avif",
+    "homeUrl": "https://theclankerapp.vercel.app",
+    "imageUrl": "https://theclankerapp.vercel.app/hero.jpeg",
+    "splashImageUrl": "https://theclankerapp.vercel.app/plash.gif",
+    "splashBackgroundColor": "#ffffff",
+    "webhookUrl": "https://theclankerapp.vercel.app/api/webhook",
     "subtitle": "TheClankerApp",
     "description": "easy way to deploy token",
     "primaryCategory": "finance",
-    "heroImageUrl": "https://clanker-dep.vercel.app/hero.jpeg",
-    "ogImageUrl": "https://clanker-dep.vercel.app/hero.jpeg"
+    "heroImageUrl": "https://theclankerapp.vercel.app/hero.jpeg",
+    "ogImageUrl": "https://theclankerapp.vercel.app/hero.jpeg"
     },
   });
 }
