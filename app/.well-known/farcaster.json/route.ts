@@ -3,9 +3,9 @@ export async function GET() {
 
   return Response.json({
     "accountAssociation": {
-    "header": "",
-    "payload": "",
-    "signature": ""
+    "header": "eyJmaWQiOjUxMzE5NCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDBhYTYzY2Q5ODA4OGQzQTcyNzA0MjM1ZDVCYjgxZjZjOTE5MzM2NTMifQ",
+    "payload": "eyJkb21haW4iOiJ0aGVjbGFua2VyYXBwLnZlcmNlbC5hcHAifQ",
+    "signature": "MHg3NDMyMzQ5NTI2MWFhYzYyYmVhOWMwZTRjZWQ3MDExYzYxODY1ZDhkYjg3NjZhYjkxZmY3MDc5MmE1ZTNjOGJlMDM2MzU4OTU5MDk3NDg4MzViODQxYzE5ZWM5NTc1M2I5NDE0OWIyZDljOGFmMDkxMGUwYWRiYjdkNmJmMDdjMTFj"
   },
      "frame": {
     "name": "The Clanker App",
