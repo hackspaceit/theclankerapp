@@ -6,7 +6,7 @@ import { base } from 'viem/chains';
 import { useNotification, useOpenUrl } from '@coinbase/onchainkit/minikit';
 import { Clanker } from 'clanker-sdk';
 
-const DEFAULT_IMAGE = 'ipfs://QmZsYn1sF99dPpstX9uTzjKzYaHAY1mo6pcXwAfWuddeYo';
+const DEFAULT_IMAGE = 'ipfs://QmeJ2dPDghZEEn4tULr8jVNws5meuq2U4c7jP52iBThvTy';
 const QUOTE = {
   WETH: '0x4200000000000000000000000000000000000006',
   USDC: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -115,7 +115,7 @@ export default function TokenDeployForm() {
         body: `Token Address: ${deployedTokenAddress}. Remember to update your token metadata on clanker.world!`,
       });
       
-      const castText = `I just deployed my new token ${f.name} (${f.symbol})! Check it out: ${deployedTokenAddress} https://clanker-dep.vercel.app/`;
+      const castText = `I just deployed my new token ${f.name} (${f.symbol})! Check it out: ${deployedTokenAddress} `;
       let embedUrl = `https://basescan.org/address/${deployedTokenAddress}`; // Default to Basescan
       if (deployedTokenAddress) {
         embedUrl = `https://clanker.world/clanker/${deployedTokenAddress}`;
